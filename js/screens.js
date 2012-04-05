@@ -55,11 +55,7 @@
 
     validate: function(attribute){
       var self = this;
-      if( attribute.current == null || attribute.current in self.hscreens ) {
-        console.log('correct : %s',attribute.current);
-      }
-      else{
-        console.log('wrong : %s',attribute.current);
+      if( !( attribute.current == null || attribute.current in self.hscreens ) ) {
         return 'screen not found';
       }
     },
@@ -77,7 +73,6 @@
 
   var ScreenModel = Backbone.Model.extend({
     defaults: {
-      caption : null,
       name : null,
       active: false
     },
