@@ -33,9 +33,6 @@
         $(self.el).append( screenView.render().el );
         $(self.el).addClass('extended');
         self.hscreens[ screenName ] = self.screens.indexOf(screen);
-        if( self.get('current') === null ){
-          self.set('current',screenName);
-        }
 
         screen.on('change:active',function(mod,act){
           var current = self.get('current');
