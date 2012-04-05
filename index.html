@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <title>Collect it!</title>
+  <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="./js/underscore.js"></script>
+  <script type="text/javascript" src="./js/backbone.js"></script>
+
+  <script type="text/javascript" src="./js/screens.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="text/template" id="tpl-index-screen">
+<!-- template -->
+<h1><%= caption %></h1>
+<ul class="club-list">
+  <li><a href="#club/fcdk/">FC Dynamo Kyiv</a></li>
+  <li><a href="#club/acm/">AC Milan</a></li>
+  <li><a href="#club/fcok/">FC Obolon Kyiv</a></li>
+</ul>
+<!-- /template -->
+  </script>
+
+  <script type="text/template" id="tpl-club-screen">
+<!-- template -->
+<h1><%= name %></h1>
+<p>
+<img class="emblem" src="<%= emblem %>">
+<%= info %>
+</p>
+
+<a href="#">back</a>
+<!-- /template -->
+  </script>
+
+
+</head>
+<body>
+  <div id="ground">
+    <div id="content">
+      <ul id="screenlist"></ul>
+    </div>
+  </div>
+</body>
+</html>

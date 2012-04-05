@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#ground {
+  background-color: #111;
+  min-height: 100%;
+  position: relative;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#content {
+  margin: 40px auto;
+  width: 1000px;
+  overflow: hidden;
+}
+
+#content ul#screenlist {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 1000px;
+  height: 600px;
+  border-radius: 8px;
+}
+
+
+#content ul#screenlist li.screen {
+  display: none;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+
+#content ul#screenlist li.screen.active {
+  display: block;
+}
+
+
+
+
+ul#screenlist li.screen h1 {
+  text-align: center;
+}
+
+ul#screenlist li.screen img.emblem {
+  float: left;
+  margin: -10px 20px 10px 0;
+}
+
+ul#screenlist li.screen p {
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
