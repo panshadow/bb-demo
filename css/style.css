@@ -71,6 +71,24 @@ ul#screenlist li.screen a.back-link {
   font-size: 80%;
 }
 
+ul#screenlist li#index-screen.screen li {
+  list-style-type: none;
+}
+
+ul#screenlist li#index-screen.screen li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 120%;
+  margin: 5px 0;
+}
+
+ul#screenlist li#index-screen.screen li a:hover {
+  color: #77f;
+}
+
+
+
 
 
 
