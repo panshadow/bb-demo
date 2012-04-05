@@ -65,6 +65,14 @@ ul#screenlist li.screen p {
   margin: 20px auto;
 }
 
+ul#screenlist li.screen a.back-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 80%;
+}
+
+
+
 
 
 

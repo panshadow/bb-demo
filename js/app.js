@@ -3,6 +3,7 @@
   var App = Backbone.Router.extend({
     routes : {
       ''      : 'index',
+      'index' : 'index',
       'club/:name/' : 'club'
     },
 
